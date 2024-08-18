@@ -1,4 +1,10 @@
-﻿using Newtonsoft.Json;
+﻿/*
+ * Copyright (C) 2024 Game4Freak.io
+ * This mod is provided under the Game4Freak EULA.
+ * Full legal terms can be found at https://game4freak.io/eula/
+ */
+
+using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +13,7 @@ using UnityEngine;
 namespace Oxide.Plugins
 {
     [Info("Explosions Without Fireballs", "VisEntities", "1.0.0")]
-    [Description(" ")]
+    [Description("Disables the creation of fireballs when entities like minicopters and flame turrets explode.")]
     public class ExplosionsWithoutFireballs : RustPlugin
     {
         #region Fields
